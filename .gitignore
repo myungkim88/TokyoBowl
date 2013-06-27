@@ -7,3 +7,5 @@ target
 ###################
 .settings/
 src/main/webapp/WEB-INF/faces-config.xml
+.openshift
+.openshift/*
