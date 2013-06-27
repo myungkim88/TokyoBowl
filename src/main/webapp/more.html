@@ -9,7 +9,6 @@
 <script type="text/javascript" src="js/stepcarousel.js"></script>
 <script type="text/javascript" src="js/jquery-1.3.min.js"></script>
 <script type="text/javascript" src="js/custom.js"></script>
-<script type="text/javascript" src="js/google-analytics.js"></script>
 <script type="text/javascript">
 	stepcarousel.setup({
 		galleryid : 'mygallery', //id of carousel DIV
@@ -35,7 +34,14 @@
 		contenttype : [ 'inline' ]
 	//content setting ['inline'] or ['external', 'path_to_external_file']
 	})
-	
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-42065616-1', 'tokyobowl-t3st.rhcloud.com');
+  ga('send', 'pageview');
+
 </script>
 
 
